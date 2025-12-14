@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "instruction": {
+      "type": "string"
+    },
+    "input": {
+      "type": "object"
+    },
+    "output": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "instruction",
+    "input",
+    "output"
+  ]
+}
